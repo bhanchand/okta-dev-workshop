@@ -24,7 +24,7 @@ http://bit.ly/okta-dev-workshop
     - Go to https://oidcdebugger.com and fill in the form with the following values:
         - Authorize URI: `[your authorization server path]/v1/authorize`
         - Redirect URI: `https://oidcdebugger.com/debug`
-        - Client ID: Your app client ID created in step #1 above.
+        - Client ID: Your app client ID created in step #1 above
         - Scope: `openid profile email`
         - State: `foo` or any other value
         - Click "Send request"
